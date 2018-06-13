@@ -1,7 +1,7 @@
 /*
  * Globals
  */
- 
+
 /* Links */
 a,
 a:focus,
@@ -37,7 +37,7 @@ html,
 body {
   height: 100%;
     background-color: #fff;
-  /* overflow-x: hidden;  remove for jquery scolling problems */ 
+  /* overflow-x: hidden;  remove for jquery scolling problems */
   -webkit-font-smoothing: antialiased; /* font smoothing */
   -moz-osx-font-smoothing: grayscale;
 }
@@ -102,7 +102,7 @@ body {
   background: #ffffff;
 }
 .gray-dark {
-  background: #ffffff; 
+  background: #ffffff;
   color:#222222;
 }
 .parallax {
@@ -116,7 +116,7 @@ body {
 .block-wrapper-inner {
   display: table-cell;
   vertical-align: middle;
-  /* original 
+  /* original
   display: table;
   width: 100%;
   float:left; */
@@ -159,13 +159,13 @@ body {
  */
  /* animation */
 nav {
-	
+
 }
 
 .masthead-brand {
   text-align:center;
   width : 100%;
-} 
+}
 .masthead-brand, .site-title  {
   float: left;
   font-size: 20px;
@@ -184,7 +184,7 @@ nav {
 }
 .site-description {
   font-size: 14px;
-} 
+}
 .masthead-brand, .masthead-nav {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -201,7 +201,7 @@ nav {
   font-size: 20px;
   font-weight: 700;
   color: #222222 !important;
-  /* IE8 proofing 
+  /* IE8 proofing
   color: rgba(255,255,255,.75); */
   border-bottom: 2px solid transparent;
 }
@@ -232,7 +232,7 @@ nav {
 	/* fix call-back transition */
 }
 .toggle-nav button {
-	
+
 }
 .toggle-offcanvas {
 	background : transparent;
@@ -308,7 +308,7 @@ nav {
     vertical-align: middle;  /* REMOVE FOR CONTACT PAGE */
 }
 .cover-block .block-container {
-    /* position : relative;  apply 4 cover with bottom features */	
+    /* position : relative;  apply 4 cover with bottom features */
 }
 .cover-block .row {
   margin: 120px 0 0;
@@ -331,7 +331,7 @@ nav {
 .featured-block-img .feature  { /* @@ Should change class */
   margin: 80px 0;
 }
-.cover-block-1 .block-wrapper-inner 
+.cover-block-1 .block-wrapper-inner
  {
   display:table-row;
   height : 80%;
@@ -341,7 +341,7 @@ nav {
   height : 20%;
   background : #f6f6f6;
 }
-.cover-block-1 .block-container, 
+.cover-block-1 .block-container,
 .cover-block-1 .features {
   display:table-cell;
   vertical-align: middle;
@@ -373,14 +373,14 @@ nav {
 
 /*
 * Portfolio block
-*/ 
+*/
 .portfolio-block .portfolio-item {
 	/*  background : #ffffff;  */
-	padding-top : 15px; 
+	padding-top : 15px;
 	padding-bottom : 15px;
 }
 .portfolio-block [class^=col-] {
-	/* padding-left : 0;  //fixed bootstrap col-'s padding 
+	/* padding-left : 0;  //fixed bootstrap col-'s padding
 	padding-right : 0; */
 }
 .portfolio-item img {
@@ -388,7 +388,7 @@ nav {
 	height : auto !important;
 }
 .portfolio-block .entry-title {
-		
+
 }
 
 .portfolio-block .entry-meta a {
@@ -610,7 +610,7 @@ nav {
 }
 
 .pricing-block-1 {
-	
+
 }
 .pricing-block-1 .price-item {
 	margin : 20px 10px;
@@ -684,7 +684,7 @@ nav {
 	/* height : 100%; */
 	position : absolute;
 	right : 0;
-	
+
 }
 #address-box {
 	width : 300px;
@@ -834,7 +834,7 @@ nav {
 ** blog block - type 1
 */
 .blog-block .entry-meta > div {
-	float: left; 
+	float: left;
 	display : inline;
 	padding-right : 20px;
 	font-size : 14px;
@@ -937,7 +937,7 @@ nav {
 }
 
 /*
-* Off-canvas Sidebar 
+* Off-canvas Sidebar
 */
 .row-offcanvas {
 	position: relative;
@@ -1001,13 +1001,13 @@ right: 0; /* 6 columns */
 	position: fixed;
 	top: 0;
 	left : 0;
-	width: 25%; /* 6 columns */ 
+	width: 25%; /* 6 columns */
 	height: 100%;
 	background: #ffffff;
 	/* overflow:hidden; */
 	/* overflow: auto; */
 	box-shadow: 0 -10px 10px 10px rgba(0, 0, 0, 0.1);
-	padding: 50px 0 0;	
+	padding: 50px 0 0;
 }
 .tiny-sidebar {
 	padding-top : 20px;
@@ -1070,7 +1070,7 @@ right: 0; /* 6 columns */
   .block-container {
     width: 100%;
     /* Must be percentage or pixels for horizontal alignment */
-  
+
   }
 
 }
@@ -1086,7 +1086,7 @@ right: 0; /* 6 columns */
 	margin : 0;
 	width : 100%;
   }
-  
+
   /* cover */
  .cover-block .center {
 	margin : 0 40px;
@@ -1094,14 +1094,14 @@ right: 0; /* 6 columns */
   .features  .feature {
 	margin : 20px 0 0 ;
   }
-  
+
   /* testimonial */
-  .testi-block .starts-detail, 
+  .testi-block .starts-detail,
   .testi-block .testimonial {
 	width : 100%;
 	margin : 20px 0;
   }
-  
+
   /* subscrible */
   .subcrible-block .input-lg {
 	width : 360px;
@@ -1142,6 +1142,6 @@ right: 0; /* 6 columns */
 .navbar {margin-bottom:0; background:transparent; border:none;}
 
 .site, .site-content {
-	height: 100%; margin: 0px; padding: 0px; position: relative; 
+	height: 100%; margin: 0px; padding: 0px; position: relative;
 	width:100% /* fix transition overflow */
 }
