@@ -1,3 +1,6 @@
+0.0.4
+- hide team profiles
+
 0.0.3
 - Yamato update 2: company description
 - contact email
