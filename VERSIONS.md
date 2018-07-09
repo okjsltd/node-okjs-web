@@ -1,3 +1,6 @@
+0.0.5
+- hide related company
+
 0.0.4
 - hide team profiles
 
